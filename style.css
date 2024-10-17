@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 4rem;
+    background-color: blueviolet;
+    height: 8vh;
+    line-height: 8vh;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+div {
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4vmin;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.choice {
+    height: 157px;
+    width: 157px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    background-color: black;
+}
+
+.scoreBoard {
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+}
+
+.score {
+    font-size: 40px;
+    background-color: rgb(227, 127, 255);
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.msgContainer {
+    margin-top: 3rem;
+}
+
+#msg {
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    line-height: 4vh;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+button {
+    margin-top: 3rem;
+    padding: 1vmin;
+    font-size: 1.3rem;
+    border-radius: 10%;
+    background-color: white;
+    border: 2px dashed black;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition-duration: 200ms;
+}
+
